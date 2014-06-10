@@ -1,4 +1,4 @@
-<?php
+<php
 /**
  * Implements hook_install().
  *
@@ -123,5 +123,5 @@ function d7base_install() {
 
   // Enable the Configuration Management module and load default settings
   module_enable(array('configuration'));
-  configuration_import_directory('/sites/default/config');
+  configuration_import_directory('sites/default/config');
 }

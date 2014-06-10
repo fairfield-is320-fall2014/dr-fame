@@ -122,6 +122,6 @@ function d7base_install() {
   drupal_get_messages();
 
   // Enable the Configuration Management module and load default settings
-  module_enable(array('configuration'));
-  configuration_import_directory('sites/default/config');
+  // module_enable(array('configuration'));
+  // configuration_import_directory('sites/default/config');
 }

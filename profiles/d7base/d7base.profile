@@ -22,3 +22,24 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
     }
   }
 }
+
+/**
+ * Implements hook_install_tasks()
+ */
+function d7base_install_tasks(&$install_state) {
+  $tasks = array();
+  
+  $tasks['d7base_finalize'] = array(
+    'type' => 'normal',
+  );
+
+  return $tasks;
+}
+
+function d7base_finalize() {
+  
+  $enable = array(
+    'fences',
+  );
+  module_enable($enable);
+}

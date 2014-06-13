@@ -38,6 +38,10 @@ function d7base_install_tasks(&$install_state) {
 
 function d7base_finalize() {
   
+  //set the configuration path for the Configuration Management module
+  variable_set('configuration_config_path','sites/default/config');
+
+  //Enable modules that cannot be installed as dependencies in the .info file
   $enable = array(
     'fences',
   );

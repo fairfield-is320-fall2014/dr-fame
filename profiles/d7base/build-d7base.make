@@ -7,13 +7,6 @@ projects[drupal][version] = "7.x"
 includes[] = "drupal-org.make"
 
 ; +++++ Libraries +++++
-; CKEditor
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][type] = "library"
-libraries[ckeditor][destination] = "libraries"
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.1/ckeditor_4.4.1_full.zip"
-
 ;hybridauth
 libraries[hybridauth][directory_name] = "hybridauth"
 libraries[hybridauth][type] = "library"

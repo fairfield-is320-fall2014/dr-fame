@@ -6,7 +6,7 @@ if [ $# -eq 0 ]; then
   exit 1
 fi
 DRUSH_OPTS='--working-copy --no-gitinfofile --no-cache'
-MAKEFILE='full.build.make'
+MAKEFILE='build-d7base.make'
 TARGET=$1
 # Make sure we have a target directory
 if [ -z "$TARGET" ]; then

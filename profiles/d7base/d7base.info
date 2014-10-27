@@ -1,0 +1,77 @@
+; Packaging information for d7base
+name = "d7base"
+description = "d7base"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; @font-your-face
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+dependencies[] = google_fonts_api
+; Chaos tool suite
+dependencies[] = ctools
+; Configuration
+dependencies[] = configuration
+dependencies[] = configuration_ui
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = comment
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Development
+;dependencies[] = profiler_builder
+; Fields
+;dependencies[] = fences
+;dependencies[] = font_reference
+; Icon API
+;dependencies[] = icon
+; Icon Provider
+;dependencies[] = fontello
+; Media
+;dependencies[] = imce
+;dependencies[] = imce_filefield
+; Other
+dependencies[] = backup_migrate
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = libraries
+;dependencies[] = token
+dependencies[] = xautoload
+; Spark
+dependencies[] = edit
+; User interface
+dependencies[] = ckeditor
+dependencies[] = hybridauth
+dependencies[] = jquery_update
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+

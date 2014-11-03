@@ -6,9 +6,11 @@ Cloning this repository into Eclipse
   
 The following is a guide on how to get the "sites" folder found in this repository put into a given user's local repository using Eclipse (Kepler) and his own downloaded distribution of Drupal 7.  
   
+  
 #####Downloading current version of Drupal 7  
   
 In order to have a funtioning Drupal site to run on your personal machine, you must have a full distribution of Drupal 7. The latest version of Drupal 7 should be found here: https://www.drupal.org/project/drupal. Here you should click on the link for the .zip file of the latest release of Drupal 7 as found in "Recommended Releases". After you are finished downloading Drupal, you need to unzip what you have just downloaded and put the unzipped folder into your ampps/www folder. The download may have a wrapper (a folder titled 'Drupal 7.x' within another folder titled 'Drupal 7.x'). If this is the case then take the innermost folder titled 'Drupal 7.x' and and place that into your ampps/www folder.  
+  
   
   
 #####Getting the GitHub 'Sites' Folder into your Local Repository  
@@ -24,6 +26,7 @@ Now you are going to fetch from this GitHub repository. To do this, right-click 
 Now you are going to merge your local repository with the GitHub repository. Right-click on your project folder again and go down to 'Team' and then click 'Merge...'. In this menu, expand the 'Remote Tracking' folder and select the branch inside of it. Make sure the radio button that reads 'Commit (commit the result)' is selected and then in the next groupbox select the button that reads 'If a fast forward, only update the brach pointer'. Now click 'Merge'. At this point, the 'Sites' folder may or may not have appeared in your 'PHP Explorer' view under your project folder, but if it did, then the folder icon should have a gold cylinder on it. Whether or not the folder appeared, you should still do a hard reset on your project.  
   
 In order to do a hard reset, you need to right-click on your project folder yet again, and then go down to 'Team' and then click on 'Reset...'. This will bring up a form titled 'Reset <project name>'. Here you need to expand the 'Remote Tracking' folder and select the branch inside of it. Select the radio button that reads 'Hard...' and then click 'Reset'. Select 'Yes' in the prompt that shows up and that should be all that needs to be done.  
+  
   
   
 Pushing  

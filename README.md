@@ -32,8 +32,7 @@ In order to do a hard reset, you need to right-click on your project folder yet 
 Pushing  
 -------  
   
-Pushing your changes that you made to anything within the 'Sites' folder to this GitHub repository (from within Eclipse)  
-is a three-step process.  
+Pushing your changes that you made to anything within the 'Sites' folder to this GitHub repository (from within Eclipse) is a three-step process.  
   
 1) **Add changed files to the index:** Do this by right-clicking on your project folder, mousing over 'Team' and then by clicking 'Add to Index'.  
   

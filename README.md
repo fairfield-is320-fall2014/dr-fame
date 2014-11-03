@@ -4,7 +4,7 @@ dr-fame
 Cloning this repository into Eclipse  
 ------------------------------------  
   
-The following is a guide on how to get the "sites" folder found in this repository put into a given user's local repository using Eclipse (Kepler) and his own downloaded distribution of Drupal 7.  
+The following is a guide on how to get the 'Sites' folder found in this repository put into a given user's local repository using Eclipse (Kepler) and his own downloaded distribution of Drupal 7.  
   
   
 #####Downloading current version of Drupal 7  

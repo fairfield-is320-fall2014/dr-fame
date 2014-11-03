@@ -6,14 +6,12 @@ Cloning this repository into Eclipse
   
 The following is a guide on how to get the "sites" folder found in this repository put into a given user's local repository using Eclipse (Kepler) and his own downloaded distribution of Drupal 7.  
   
-Downloading current version of Drupal 7  
----------------------------------------  
+###Downloading current version of Drupal 7###  
   
 In order to have a funtioning Drupal site to run on your personal machine, you must have a full distribution of Drupal 7. The latest version of Drupal 7 should be found here: https://www.drupal.org/project/drupal. Here you should click on the link for the .zip file of the latest release of Drupal 7 as found in "Recommended Releases". After you are finished downloading Drupal, you need to unzip what you have just downloaded and put the unzipped folder into your ampps/www folder. The download may have a wrapper (a folder titled 'Drupal 7.x' within another folder titled 'Drupal 7.x'). If this is the case then take the innermost folder titled 'Drupal 7.x' and and place that into your ampps/www folder.  
   
   
-Getting the GitHub 'Sites' Folder into your Local Repository  
-------------------------------------------------------------  
+###Getting the GitHub 'Sites' Folder into your Local Repository###  
   
 In Eclipse, create a new PHP Project by going into File/New/Project... and then, in the menu that comes up, expand the PHP folder and then select 'PHP Project'. Clicking 'Next' will bring you into the 'Create PHP Project' menu. Here you will need to select the radio button that reads 'Create project at existing location...' and then press 'Browse...'. From here you need to find and select your new Drupal folder that should be sitting inside your ampps/www folder. After doing this, make sure to give your project a name (ideally 'FAME') and then click 'Finish'.  
   
